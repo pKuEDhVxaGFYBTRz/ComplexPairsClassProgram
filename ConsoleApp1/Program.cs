@@ -8,6 +8,10 @@ namespace Complex_Pair_Program
         {
             // main program
 
+            Player player = new Player();
+
+
+
         }
     }
 }

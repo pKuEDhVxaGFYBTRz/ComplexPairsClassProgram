@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\comp science\\c# basics\\inheritance\\Complex_Pair_Program\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\s21000000300\\Source\\Repos\\ComplexPairsClassProgram\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "H:\\comp science\\c# basics\\inheritance\\Complex_Pair_Program\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\s21000000300\\Source\\Repos\\ComplexPairsClassProgram\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\s21000000300\\.nuget\\packages\\",
-      "outputPath": "H:\\comp science\\c# basics\\inheritance\\Complex_Pair_Program\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\s21000000300\\Source\\Repos\\ComplexPairsClassProgram\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
