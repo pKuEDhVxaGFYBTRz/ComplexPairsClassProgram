@@ -39,15 +39,24 @@ namespace Complex_Pair_Program
                 {
                     break;
                 }
-                
+
                 //Removes a card with the same name as the entered one.
-                for(int i = hand.Count; i >= 0; i++)
+
+                bool hasRemoved = false;
+
+                foreach(Card card in hand)
                 {
-                    if(hand[i].Name == cardToRemove)
+                    if(card.Name.ToLower() == cardToRemove.ToLower())
                     {
-                        hand.RemoveAt(i);
+                        hand.Remove(card);
+                        hasRemoved = true;
                         break;
                     }
+                }
+
+                if (!hasRemoved)
+                {
+                    Console.WriteLine("The card you entered is not in your hand.");
                 }
             }
 
