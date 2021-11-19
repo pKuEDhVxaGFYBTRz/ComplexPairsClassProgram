@@ -16,12 +16,11 @@ namespace Complex_Pair_Program
             points3,
         }
 
-        private object cardClass = new Dictionary<object, Card>()
+        public static object cardClass = new Dictionary<object, object>()
         {
-            { EnumerableCards.gold1, },
-            { EnumerableCards.gold2, }
+            { EnumerableCards.gold1, typeof(GoldCard)},
+            { EnumerableCards.gold2, typeof(GoldCard)}
         };
 
-        public object CardClass { get => cardClass; set => cardClass = value; }
     }
 }

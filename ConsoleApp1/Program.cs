@@ -16,7 +16,9 @@ namespace Complex_Pair_Program
             // init player inventory with random cards.
             for (int i = 0; i < 10; i++)
             {
-                player.inventory.add();
+                var card = CardPointers.cardClass[rand]
+
+                player.inventory.Add(card);
             }
         }
     }
